@@ -1,15 +1,13 @@
-Welcome to your new dbt project!
+Welcome to my Snowflake + dbt project!
 
-### Using the starter project
+### Purpose:
 
-Try running the following commands:
-- dbt run
-- dbt test
+- Learn how to incorporate dbt with Snowflake to create a fully automatic deployment model.
+- Tools used: dbt, Snowflake, Github
+- This project progresses data from raw stage tables (loaded from flat files) to the creation of dimensions and a fact table.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### Key Features:
+- Creation of surrogate keys via dbt with the use of dbt_utils
+- Utilization of dbt nested tables (references)
+- Data tests built and deployed from dbt
+- Documentation via dbt
