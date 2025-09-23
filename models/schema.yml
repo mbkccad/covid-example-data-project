@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: DIM_STATE
+    description: distinct state per row
+    columns:
+      - name: STATE_NAME
+        data_tests:
+          - unique
+          - not_null
+        description: should be unique and not null
+
+  - name: DIM_COUNTY
+    columns:
+      - name: COUNTY_NAME
+        data_tests:
+          - not_null
+      - name: STATE_ABBREVIATION
+        data_tests:
+          - not_null    
+      - name: COUNTY_ID
+        data_tests:
+          - unique               
