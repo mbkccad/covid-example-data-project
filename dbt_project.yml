@@ -36,12 +36,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  mart:
-    +database: EDW_COVID
-    +schema: COVID
+  covidDataModel: 
+    mart:
+      +database: EDW_COVID
+      +schema: COVID
 
-  stage:
-    +database: STAGE_COVID
-    +schema: COVID
+    stage:
+      +database: STAGE_COVID
+      +schema: STG
 
 
