@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: STAGE_COVID   # <-- first arg in source()
-    database: STAGE_COVID
-    schema: COVID       # <-- actual Snowflake schema
-    tables:
-      - name: STAGE_STATE   # <-- second arg in source()
-      - name: STAGE_COUNTY
