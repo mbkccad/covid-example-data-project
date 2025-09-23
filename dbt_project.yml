@@ -40,9 +40,9 @@ models:
 
     +materialized: table
     mart:
-      +database: STAGE_COVID
-      +schema: STAGE
-    stage:
       +database: EDW_COVID
       +schema: COVID
+    stage:
+      +database: STAGE_COVID
+      +schema: STAGE
 
