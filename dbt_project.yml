@@ -44,5 +44,5 @@ models:
       +schema: COVID
     stage:
       +database: STAGE_COVID
-      +schema: STAGE
+      +schema: COVID
 
