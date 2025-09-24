@@ -1,4 +1,4 @@
-Welcome to my Snowflake + dbt projec
+Welcome to my Snowflake + dbt project
 
 ### Purpose:
 
