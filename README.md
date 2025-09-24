@@ -1,4 +1,4 @@
-Welcome to my Snowflake + dbt project
+This project highlights data transformation practices using Snowflake + dbt project
 
 ### Purpose:
 
